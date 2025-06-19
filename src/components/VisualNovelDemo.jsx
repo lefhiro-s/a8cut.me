@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import novelData from "../data/visualNovelData";
+import { loadNovelData } from "../utils/loadNovelData";
 
 /**
  * VisualNovelViewer
@@ -28,10 +29,27 @@ export default function VisualNovelViewer({
 }) {
   const [mode, setMode] = useState(initialMode);
   const [page, setPage] = useState(0);
+  const [novel, setNovel] = useState(
+    typeof data === "string" ? null : data
+  );
   const containerRef = useRef(null);
 
-  // Normalize scenes array
-  const scenes = Array.isArray(data.scenes) ? data.scenes : Object.values(data);
+  useEffect(() => {
+    if (typeof data === "string") {
+      loadNovelData(data)
+        .then(setNovel)
+        .catch((err) => console.error(err));
+    } else {
+      setNovel(data);
+    }
+  }, [data]);
+
+  // Normalize scenes array when data available
+  const scenes = Array.isArray(novel?.scenes)
+    ? novel.scenes
+    : novel
+    ? Object.values(novel)
+    : [];
   const currentScene = scenes[page];
 
   // Parallax: scroll + mouse
@@ -78,6 +96,10 @@ export default function VisualNovelViewer({
       node.removeEventListener("mousemove", handleMouse);
     };
   }, [mode, parallaxIntensity, mouseParallaxIntensity, enableScrollParallax, enableMouseParallax]);
+
+  if (!novel) {
+    return <div>Loading...</div>;
+  }
 
   const goNext = () => setPage(p => Math.min(p + 1, scenes.length - 1));
   const goPrev = () => setPage(p => Math.max(p - 1, 0));
