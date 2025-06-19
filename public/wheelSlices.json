@@ -1,0 +1,94 @@
+[
+
+    {
+      "icon": "FaGlassWhiskey",
+      "color": "#006785",
+      "label": "Ve y toma agua",
+      "action": "image_sfw",
+      "content": "https://example.com/vaso-agua.jpg",
+      "text": "Es importante mantenerse hidratado.",
+      "animation": "bounce"
+    },
+    {
+      "icon": "FaAd",
+      "color": "#db2777",
+      "label": "Visualiza un anuncio",
+      "action": "ad",
+      "content": "Disculpa, necesitamos el dinero.",
+      "text": "Gracias por tu apoyo.",
+      "animation": "shake"
+    },
+    {
+      "icon": "FaUserSecret",
+      "color": "#006785",
+      "label": "Imagen subida de tono",
+      "action": "image_nsfw",
+      "content": "https://example.com/imagen-pixelada.jpg",
+      "text": "Contenido sensible.",
+      "animation": "fadeIn"
+    },
+    {
+      "icon": "FaSadTear",
+      "color": "#db2777",
+      "label": "Vuelve a intentarlo",
+      "action": "icon",
+      "content": "FaSadTear",
+      "text": "No te desanimes, inténtalo de nuevo.",
+      "animation": "wobble"
+    },
+    {
+      "icon": "FaHandPointer",
+      "color": "#006785",
+      "label": "Haz clic en el anuncio",
+      "action": "ad",
+      "content": "Disculpa, necesitamos dinero.",
+      "text": "Tu apoyo es importante para nosotros.",
+      "animation": "shake"
+    },
+    {
+      "icon": "FaGavel",
+      "color": "#db2777",
+      "label": "Sigue este enlace para tu castigo",
+      "action": "link",
+      "content": "https://a8cut.me/terms",
+      "text": "Lee atentamente los términos y condiciones.",
+      "animation": "fadeIn"
+    },
+    {
+      "icon": "FaLink",
+      "color": "#006785",
+      "label": "Visita este link",
+      "action": "link",
+      "content": "https://example.com/busquedas-feas",
+      "text": "Contenido no recomendado.",
+      "animation": "shake"
+    },
+    {
+      "icon": "FaGoogle",
+      "color": "#db2777",
+      "label": "Busca en Google",
+      "action": "link",
+      "content": "https://www.google.com/search?q=a8cut+me+lo+mejor+2025",
+      "text": "Descubre más en Google.",
+      "animation": "bounce"
+    },
+    {
+      "icon": "FaRedo",
+      "color": "#006785",
+      "label": "Gira de nuevo",
+      "action": "spin_again",
+      "content": "",
+      "text": "¡Tienes otra oportunidad!",
+      "animation": "rotateIn"
+    },
+    {
+      "icon": "FaHeart",
+      "color": "#db2777",
+      "label": "Ganaste amor",
+      "action": "text",
+      "content": "La ruleta te aprecia.",
+      "text": "Gracias por jugar.",
+      "animation": "pulse"
+    }
+  ]
+  
