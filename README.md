@@ -37,3 +37,7 @@ Los componentes esperan un JSON con una estructura similar a la siguiente:
 ```
 
 Cada escena referencia imágenes dentro de `public/sprites/novel/`. Las burbujas de texto usan coordenadas porcentuales (`x`, `y`) y pueden incluir valores opcionales para la paralaje.
+
+### Uso del componente
+
+`VisualNovelViewer` acepta el prop `data` como objeto o como URL. Si se pasa una cadena, la utilidad `loadNovelData` obtiene el JSON antes de renderizar la historia.
