@@ -9,5 +9,10 @@ Plataforma de entretenimiento interactivo que combina ruletas, visual novels, bl
   - **components/**: Componentes reutilizables.
   - **pages/**: Páginas principales.
   - **routes/**: Rutas dinámicas para contenido (ruleta, blog, etc.).
-  - **data/**: Archivos JSON con contenido.
-  - **utils/**: Funciones helper.
+- **data/**: Archivos JSON con contenido.
+- **utils/**: Funciones helper.
+- **docs/**: Documentaci\u00f3n adicional.
+
+## Documentaci\u00f3n
+
+- [Formato de escenas para Visual Novel](docs/visual-novel.md)
