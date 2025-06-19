@@ -11,6 +11,7 @@ Plataforma de entretenimiento interactivo que combina ruletas, visual novels, bl
   - **routes/**: Rutas dinámicas para contenido (ruleta, blog, etc.).
   - **data/**: Archivos JSON con contenido.
   - **utils/**: Funciones helper.
+  - **index.css**: Estilos principales importados en `src/main.jsx`.
 
 ## Requisitos
 - Node.js 18 o superior.
