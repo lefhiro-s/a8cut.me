@@ -10,6 +10,37 @@ Plataforma de entretenimiento interactivo que combina ruletas, visual novels, bl
   - **pages/**: Páginas principales.
   - **routes/**: Rutas dinámicas para contenido (ruleta, blog, etc.).
   - **data/**: Archivos JSON con contenido.
+- **utils/**: Funciones helper.
+
+## Formato de los datos de la visual novel
+
+Los componentes esperan un JSON con una estructura similar a la siguiente:
+
+```json
+{
+  "scenes": [
+    {
+      "id": "intro",
+      "image": "demo-section-scene-1.png",
+      "texts": [
+        {
+          "content": "Línea de diálogo",
+          "x": 50,
+          "y": 80,
+          "parallaxSpeed": 0.2,
+          "mouseParallaxSpeed": 0.05
+        }
+      ]
+    }
+  ]
+}
+```
+
+Cada escena referencia imágenes dentro de `public/sprites/novel/`. Las burbujas de texto usan coordenadas porcentuales (`x`, `y`) y pueden incluir valores opcionales para la paralaje.
+
+### Uso del componente
+
+`VisualNovelViewer` acepta el prop `data` como objeto o como URL. Si se pasa una cadena, la utilidad `loadNovelData` obtiene el JSON antes de renderizar la historia.
   - **utils/**: Funciones helper.
   - **docs/**: Documentaci\u00f3n adicional.
 
