@@ -1,7 +1,7 @@
 // src/components/ActionDemoSection.jsx
 import React from "react";
 import SmartWheel from "./WheelOfMisfortune";
-import VisualNovelDemo from "./VisualNovelDemo";
+import VisualNovelViewer from "./VisualNovelViewer";
 
 const ActionDemoSection = () => {
   return (
@@ -43,7 +43,7 @@ const ActionDemoSection = () => {
             <h3 className="text-2xl font-semibold mb-4 text-blue-400 text-center">
               Novela visual express
             </h3>
-            <VisualNovelDemo />
+            <VisualNovelViewer />
           </div>
         </div>
 
