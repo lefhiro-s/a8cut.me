@@ -1,0 +1,17 @@
+{
+    "simpleScriptExoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e14\" data-zoneid=\"5581568\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "simpleScript2Exoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e17\" data-zoneid=\"5581570\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "videoOutStreamExoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e10\" data-zoneid=\"5580914\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "videoSliderStreamExoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e10\" data-zoneid=\"5580914\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "PopunderExoclick":"<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e10\" data-zoneid=\"5580914\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "IntersetialExoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e33\" data-zoneid=\"5580912\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "BannerExoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e10\" data-zoneid=\"5580914\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "Banner2Exoclick": "<script async type=\"application/javascript\" src=\"https://a.magsrv.com/ad-provider.js\"></script><ins class=\"eas6a97888e10\" data-zoneid=\"5580914\"></ins><script>(AdProvider = window.AdProvider || []).push({\"serve\": {}});</script>",
+    "simpleScriptMonetag": "<script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',9180897,document.createElement('script'))</script>",
+    "simplePushNotification": "<script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',9181467,document.createElement('script'))</script>",
+    "intersetialMonetag": "<script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',9181386,document.createElement('script'))</script>",
+    "vignetteMonetag": "<script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',9181462,document.createElement('script'))</script>",
+    "popunderMonetag": "<script>(function(s,u,z,p){s.src=u,s.setAttribute('data-zone',z),p.appendChild(s);})(document.createElement('script'),'https://shebudriftaiter.net/tag.min.js',9181464,document.body||document.documentElement)</script>",
+    "directLink": "<script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('vemtoutcheeg.com',9180897,document.createElement('script'))</script>"
+  }
+  
