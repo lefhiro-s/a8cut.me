@@ -100,7 +100,7 @@ export default function VisualNovelViewer({
 
   if (!novel) {
     return <div>Loading...</div>;
-  }, [mode, parallaxIntensity, mouseParallaxIntensity, enableScrollParallax, enableMouseParallax]);
+  }
 
   const goNext = () => setPage(p => Math.min(p + 1, scenes.length - 1));
   const goPrev = () => setPage(p => Math.max(p - 1, 0));
