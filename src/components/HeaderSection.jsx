@@ -7,8 +7,15 @@ const HeaderSection = () => {
     <header className="bg-zinc-900 text-white shadow-md fixed w-full top-0 left-0 z-50">
       <nav className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo / Nombre */}
-        <Link to="/" className="text-pink-500 text-2xl font-extrabold tracking-tight">
-          a8cut.me
+        <Link to="/" className="flex items-center gap-2">
+          <img
+            src="/img/logo-1.png"
+            alt="Logo a8cut.me"
+            className="h-8 w-auto"
+          />
+          <span className="text-pink-500 text-2xl font-extrabold tracking-tight">
+            a8cut.me
+          </span>
         </Link>
 
         {/* Navegación */}
